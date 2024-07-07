@@ -1,0 +1,180 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background-color:black;
+    color:white;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 120px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background: #6c757d;
+}
+
+.features {
+    padding: 50px 0;
+    text-align: center;
+   
+}
+
+.features h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item {
+    width: 30%;
+    box-shadow:0 0 100px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.feature-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.about {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.about-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hura {
+    background-image: url("business.jpg");
+    height: 300px;
+}
+
+ .percentage-circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(green 75%, transparent 75%);
+  }
+  
+  .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #000;
+  }
+  .bhura {
+    background-image: url("building-consulting-business.gif");
+    height: 200px;
+  }
+
+  .do {
+   
+    height: 160px;
+    width: 160px;
+    position:relative;
+  }
+   .do .outerA {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 1px black;
+  }
